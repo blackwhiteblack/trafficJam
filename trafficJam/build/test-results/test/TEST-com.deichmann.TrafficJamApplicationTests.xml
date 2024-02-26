@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.deichmann.TrafficJamApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-26T11:04:48" hostname="DESKTOP-BA21A9M" time="0.863">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.deichmann.TrafficJamApplicationTests" time="0.863"/>
+  <system-out><![CDATA[12:04:46.009 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.deichmann.TrafficJamApplicationTests]: TrafficJamApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:04:46.134 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.deichmann.TrafficJamApplication for test class com.deichmann.TrafficJamApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-02-26T12:04:46.614+01:00  INFO 10852 --- [    Test worker] c.deichmann.TrafficJamApplicationTests   : Starting TrafficJamApplicationTests using Java 17.0.6 with PID 10852 (started by SahinMesut(Group) in C:\Neuer Ordner (2)\trafficJam)
+2024-02-26T12:04:46.616+01:00  INFO 10852 --- [    Test worker] c.deichmann.TrafficJamApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-02-26T12:04:48.019+01:00  INFO 10852 --- [    Test worker] c.deichmann.TrafficJamApplicationTests   : Started TrafficJamApplicationTests in 1.67 seconds (process running for 3.109)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.deichmann.api.TrafficJamControllerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-02-26T11:04:49" hostname="DESKTOP-BA21A9M" time="0.111">
+  <properties/>
+  <testcase name="testInvalidInputWithNullCode()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.053"/>
+  <testcase name="testFillTrucks()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.021"/>
+  <testcase name="testPrint()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.003"/>
+  <testcase name="testPrintWithException()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.005"/>
+  <testcase name="testRemoveFirst()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.006"/>
+  <testcase name="testTurnToHead()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.004"/>
+  <testcase name="testRemoveLast()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.004"/>
+  <testcase name="testInvalidInput()" classname="com.deichmann.api.TrafficJamControllerTest" time="0.003"/>
+  <system-out><![CDATA[2024-02-26T12:04:49.041+01:00 ERROR 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Invalid code format: null
+2024-02-26T12:04:49.104+01:00  INFO 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Filling trucks in traffic jam with code: CBPT
+2024-02-26T12:04:49.112+01:00  INFO 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Printing traffic jam with code: CBPT
+2024-02-26T12:04:49.119+01:00  INFO 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Printing traffic jam with code: CBPT
+2024-02-26T12:04:49.120+01:00 ERROR 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : An error occurred: Error occurred
+2024-02-26T12:04:49.125+01:00  INFO 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Removing first vehicle from traffic jam with code: CBPT
+2024-02-26T12:04:49.132+01:00  INFO 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Turning traffic jam to head with code: CBPT
+2024-02-26T12:04:49.138+01:00  INFO 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Removing last vehicle from traffic jam with code: CBPT
+2024-02-26T12:04:49.142+01:00 ERROR 10852 --- [    Test worker] com.deichmann.api.TrafficJamController   : Invalid code format: 1234B
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

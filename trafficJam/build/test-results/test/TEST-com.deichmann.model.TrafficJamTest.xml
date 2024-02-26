@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.deichmann.model.TrafficJamTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-26T11:04:49" hostname="DESKTOP-BA21A9M" time="0.015">
+  <properties/>
+  <testcase name="TrafficJamWithTrucks()" classname="com.deichmann.model.TrafficJamTest" time="0.004"/>
+  <testcase name="trafficJamWithBus()" classname="com.deichmann.model.TrafficJamTest" time="0.002"/>
+  <testcase name="modifyTrafficJam()" classname="com.deichmann.model.TrafficJamTest" time="0.002"/>
+  <testcase name="trafficJamWithBusAndPickup()" classname="com.deichmann.model.TrafficJamTest" time="0.003"/>
+  <testcase name="australianTrafficJam()" classname="com.deichmann.model.TrafficJamTest" time="0.001"/>
+  <system-out><![CDATA[2024-02-26T12:04:49.152+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Updating formatted traffic codes
+2024-02-26T12:04:49.153+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Filling trucks
+2024-02-26T12:04:49.153+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Filling truck symbol
+2024-02-26T12:04:49.154+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Filling trucks
+2024-02-26T12:04:49.154+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Filling truck symbol
+2024-02-26T12:04:49.154+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Filling trucks
+2024-02-26T12:04:49.154+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Filling truck symbol
+2024-02-26T12:04:49.154+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Filling trucks
+2024-02-26T12:04:49.157+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Updating formatted traffic codes
+2024-02-26T12:04:49.159+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Removing first vehicle
+2024-02-26T12:04:49.159+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Updating formatted traffic codes
+2024-02-26T12:04:49.159+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Removing last vehicle
+2024-02-26T12:04:49.159+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Updating formatted traffic codes
+2024-02-26T12:04:49.163+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Updating formatted traffic codes
+2024-02-26T12:04:49.165+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Turning traffic code to head
+2024-02-26T12:04:49.166+01:00  INFO 10852 --- [    Test worker] com.deichmann.model.TrafficJam           : Updating formatted traffic codes
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
